@@ -7,11 +7,10 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import docx2txt,textract
+import docx2txt
 import pdfplumber
 import re
 import nltk
-from nltk.tokenize import RegexpTokenizer
 from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
