@@ -7,7 +7,6 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import pdfplumber
 import re
 import nltk
 from nltk.corpus import stopwords
