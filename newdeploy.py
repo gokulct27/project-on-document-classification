@@ -7,23 +7,11 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import docx2txt,textract
 import pdfplumber
 import re
 import nltk
-from nltk.tokenize import RegexpTokenizer
-from nltk import word_tokenize
-from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report,confusion_matrix,accuracy_score
-from nltk.probability import FreqDist
-from wordcloud import WordCloud, ImageColorGenerator
 import matplotlib.pyplot  as plt
-import plotly.express as px
 stop=set(stopwords.words('english'))
 from pickle import load
 import pickle
