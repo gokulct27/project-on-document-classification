@@ -5,7 +5,7 @@
 
 
 import streamlit as st
-n('Randomforest.sav','rb'))
+model=load(open('Randomforest.sav','rb'))
 vectors = pickle.load(open('tfidf.pkl','rb'))
 
 nltk.download('wordnet')
