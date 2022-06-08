@@ -4,17 +4,8 @@
 # In[29]:
 
 
-import pandas as pd
-import numpy as np
 import streamlit as st
-import re
-import nltk
-from nltk.corpus import stopwords
-import matplotlib.pyplot  as plt
-stop=set(stopwords.words('english'))
-from pickle import load
-import pickle
-model=load(open('Randomforest.sav','rb'))
+n('Randomforest.sav','rb'))
 vectors = pickle.load(open('tfidf.pkl','rb'))
 
 nltk.download('wordnet')
